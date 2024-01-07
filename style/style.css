@@ -128,8 +128,12 @@
 
 }
 
-span {
+.clr {
     color: #F00;
+}
+
+.number {
+    font-family: Inter;
 }
 
 button {
@@ -140,3 +144,41 @@ button {
     border: none;
 }
 
+/* new-offer */
+
+.new-offer {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin-top: 120px;
+    /* background-color: aqua; */
+}
+
+.new-offer-section1-gap {
+    padding-top: 50px;
+}
+
+.new-offer-section1 h2 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    padding-top: 16px;
+    padding-bottom: 22px;
+}
+
+.new-offer-section1 p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 393px;
+}
+
+.new-offer-img {
+    border-radius: 50%;
+    border: 10px solid #ed2929;
+    padding: 50px;
+}
+
+.new-year {
+    padding-top: 43px;
+}
