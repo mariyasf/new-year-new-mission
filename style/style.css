@@ -36,7 +36,11 @@
     text-align: center;
 }
 
-.container .header-title {
+.container {
+    text-align: center;
+}
+
+.header-title {
     color: #FFF;
     font-size: 50px;
     font-weight: 900;
@@ -301,4 +305,56 @@ form {
 .second-btn {
     border-radius: 0px 50px 50px 0px;
     border: none;
+}
+
+/* footer */
+footer {
+    background: #070211;
+    max-width: 1440;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+
+
+.footer-info-description {
+    max-width: 400px;
+    text-align: left;
+
+}
+
+.footer-content {
+    display: flex;
+    gap: 10px;
+}
+
+hr {
+    width: 1320px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+
+}
+
+.social-medial {
+    display: flex;
+    padding: 48px;
+    gap: 20px;
+    padding-top: 48px;
+    align-items: center;
+    justify-content: center;
+}
+
+.end {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 120px;
 }
