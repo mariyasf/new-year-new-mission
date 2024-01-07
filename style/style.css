@@ -196,3 +196,65 @@ button {
 .new-year {
     padding-top: 43px;
 }
+
+/* holiday-sale */
+.holiday-sale {
+    text-align: center;
+}
+
+.holiday-sale h4 {
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 16px;
+    margin-top: 120px;
+}
+
+.holiday-sale h2 {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    padding-bottom: 28px;
+}
+
+.holiday-sale p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 1068px;
+    margin-left: 100px;
+    padding-bottom: 68px;
+}
+
+.holiday-img {
+    position: relative;
+}
+
+/* portfolio section*/
+.portfolio {
+    margin-top: 120px;
+}
+
+.portfolio-section * {
+    padding: 16px;
+}
+
+.portfolio-section h2 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.portfolio-section p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 900px;
+}
+
+.portfolio-img-division {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 24px 0px;
+}
