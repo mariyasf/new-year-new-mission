@@ -236,13 +236,49 @@ button {
     padding-bottom: 68px;
 }
 
-.holiday-img {
+/* 
+.holiday-img-container {
+    background-color: aqua;
+      display: flex; 
+}
+ */
+
+.holiday-img-1 {
+    border-radius: 16px 16px 0px 0px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    padding-left: 451px;
+
+}
+
+.holiday-img-1-1 {
     position: relative;
+    top: 50px;
+    left: 280px;
+}
+
+.holiday-img-2 {
+    background-image: url('../image/Rectangle_2.png');
+    display: flex;
+    background-repeat: no-repeat;
+    /* align-items: center;
+    
+    background-size: cover; */
+}
+
+.holiday-img-2-1 {
+    position: relative;
+    max-width: 548px;
+    height: 400px;
+    border-radius: 16px;
+    bottom: 200px;
+    left: 200px;
 }
 
 /* portfolio section*/
 .portfolio {
-    margin-top: 120px;
+    /* margin-top: 120px; */
     text-align: left;
 }
 
