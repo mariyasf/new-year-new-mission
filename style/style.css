@@ -34,8 +34,7 @@ button:hover {
 
 .header-txt {
     color: #FFF;
-    font-size: 32px;
-    font-weight: 400;
+    font-size: 32px; 
     padding-top: 150px;
     padding-bottom: 16px;
     text-align: center;
@@ -44,7 +43,6 @@ button:hover {
 .header-title {
     color: #FFF;
     font-size: 50px;
-    font-weight: 900;
     padding-top: 0px;
     padding-bottom: 177px;
     text-align: center;
