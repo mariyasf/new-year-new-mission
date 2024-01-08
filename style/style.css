@@ -2,12 +2,11 @@
 * {
     padding: 0px;
     margin: 0px;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif, 'Merriweather', serif;
 }
 
-.primary-styl {
-    margin-top: 12px;
+.secondary-styl {
+    font-family: Merriweather;
 }
 
 button:hover {
@@ -357,6 +356,8 @@ footer {
     color: #FFF;
     font-size: 24px;
     font-weight: 500;
+    font-family: Inter;
+    font-style: normal;
 
 }
 
@@ -376,7 +377,9 @@ footer {
 
 .footer-content {
     display: flex;
-    gap: 10px;
+    gap: 20px;
+    padding-right: 150px;
+
 }
 
 hr {
