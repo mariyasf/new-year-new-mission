@@ -9,6 +9,16 @@
     font-family: Merriweather;
 }
 
+button {
+    border-radius: 8px;
+    background: #F00;
+    padding: 16px 32px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border: none;
+}
+
 button:hover {
     background: #070211
 }
@@ -118,12 +128,13 @@ button:hover {
     padding-left: 126px;
 }
 
-.midnight-party h3 {
+.midnight-party button {
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
-    padding-top: 48px;
-    padding-left: 126px;
+    margin-top: 48px;
+    margin-left: 126px;
+
 }
 
 /* address */
@@ -148,13 +159,6 @@ button:hover {
     font-family: Inter;
 }
 
-button {
-    border-radius: 8px;
-    background: #F00;
-    padding: 16px 32px;
-    color: white;
-    border: none;
-}
 
 /* new-offer */
 
